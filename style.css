@@ -271,3 +271,56 @@ nav>ul>li:hover {
     line-height: 28px;
     margin-bottom: 10px;
 }
+
+/* Contact styles */
+
+.contact {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #FFF8F3;
+}
+
+.contact-container>.left,
+.contact-container>.right {
+    width: 50%;
+    margin: 0 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+}
+
+.contact-container>.left>p {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.contact-container>.left a {
+    text-decoration: none;
+    color: #FD6E0A;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.submit-btn {
+    width: 200px;
+}
